@@ -1,7 +1,9 @@
-# companion-module-aver-ptz
+# companion-module-generic-visca-ptz
 A [Bitfocus](https://github.com/bitfocus) Companion version 3.x.x module.
 
-The purpose of this module is for managing [AVER](https://averusa.com/products/ptz-camera/) Pan, Tilt, Zoom (PTZ) camera models that can be controlled using VISCA commands over IP. 
+The purpose of this module is for managing generic Pan, Tilt, Zoom (PTZ) camera models that can be controlled using VISCA commands over IP. 
+This module uses it's own presets module in order to function more effectively with camers with slow processors. Utilizing a modular presets function allows for backup of presets without having to physically move the head for each preset, and supports a virtually unlimited number of presets. 
+This module specifically supports the Bolin VCC7-4K-20s.
 
 ## Install dependencies for development:
 
